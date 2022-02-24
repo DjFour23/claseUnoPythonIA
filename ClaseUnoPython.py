@@ -80,6 +80,25 @@ a = "I can't do it"
 a ='Su nombre es "Diego"'
 
 
+#Algoritmo que sume 2 numeros e imprima su resultado
+ 
+Num1 = int(input('Ingrese numero 1: \n'))
+Num2 = int(input('Ingrese numero 2: \n'))
+res = Num1 + Num2
 
+print(res)
 
+#Algoritmo que lea un numero y lo eleve al cuadrado
 
+import math
+Num1 = int(input('Ingrese numero 1: \n'))
+raiz = math.sqrt(Num1)
+print(raiz)
+
+valorProducto = int(input('Ingrese el valor del producto: \n'))
+Descuento= 0.20
+valorAhorrado = valorProducto * Descuento
+ValorConDescuento= valorProducto - valorAhorrado
+print("El valor inicial es: $", valorProducto)
+print("Usted Ahorro: $",valorAhorrado )
+print("El valor final es: $",ValorConDescuento )
