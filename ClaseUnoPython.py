@@ -70,14 +70,64 @@ import math
 raiz = math.sqrt(a)
 print(raiz)
 
-#Tipos de datos
+# Tipos de datos
 
 # String str
 
 a = "Hola Mundo"
 a = 'Hola Mundo'
-a = "I can't do it"
-a ='Su nombre es "Diego"'
+b = " I can't do it"
+c = 'Alias "Diego"'
+
+# Entero int
+a = 5
+
+# Decimal float
+a = 5.6
+
+# Booleano bool
+x = True
+y = False
+
+# Conversiones entre tipos de datos
+
+# Convertir de x a entero
+
+a = '3'
+b = int(a)
+print(type(b))
+
+# Convertir de x a deimal
+a = 3
+b = float(a)
+print(type(b))
+
+# Convertir de x a String
+a = 3
+b = str(a)
+print(type(b))
+
+# Concatenaciones
+a = 'hola'
+b = 'mundo'
+c = a + ' ' + b
+
+a = 'hola'
+b = a * 5
+print(b)
+
+# Capturar por pantalla
+nombre = input('Digite su nombre: ')
+print('Hola',nombre, sep='**', end='DIEGO')
+
+
+nombre = input('Digite su nombre: ')
+print('Hola' + nombre)
+
+# Interpolación
+
+nombre = input('Digite su nombre: ')
+print(f'Su nombre es {nombre}')
 
 
 #Algoritmo que sume 2 numeros e imprima su resultado
