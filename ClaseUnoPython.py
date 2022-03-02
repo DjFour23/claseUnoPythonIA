@@ -154,3 +154,12 @@ print("Usted Ahorro: $",valorAhorrado )
 print("El valor final es: $",ValorConDescuento )
 #Comentario uwu
 
+
+valorProducto = int(input('Ingrese el valor del producto: \n'))
+valorDescuento = int(input('Ingrese de cuanto es el descuento: \n'))
+Descuento= valorDescuento / 100
+valorAhorrado = valorProducto * Descuento
+ValorConDescuento= valorProducto - valorAhorrado
+print("El valor inicial es: $", valorProducto)
+print("Usted Ahorro: $",valorAhorrado )
+print("El valor final es: $",ValorConDescuento )
